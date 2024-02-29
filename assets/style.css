@@ -1,0 +1,90 @@
+body {
+  background-color: rgb(62, 62, 62);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.total {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 20px;
+  flex-wrap: wrap;
+}
+.name {
+  font-weight: 400;
+  font-style: normal;
+}
+.elements {
+  display: flex;
+  padding-left: 100px;
+}
+.listitem {
+  margin-left: 30px;
+  cursor: pointer;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  padding-left: 250px;
+}
+.eachicon {
+  margin-left: 80px;
+}
+
+#resume {
+  border-width: 2px;
+  border-color: rgb(152, 150, 150);
+  border-style: solid;
+  background-color: rgb(152, 150, 150);
+  padding: 5px;
+  cursor: pointer;
+}
+.whole {
+  display: flex;
+  flex-wrap: wrap;
+}
+.photo {
+  float:left;
+  padding-left: 50px;
+  padding-top: 80px;
+}
+.info {
+  float:left;
+  padding-left: 150px;
+  padding-top: 150px;
+}
+.sd {
+  color: black;
+}
+.contact {
+  border-width: 2px;
+  border-color: rgb(152, 150, 150);
+  border-style: solid;
+  background-color: rgb(152, 150, 150);
+  width: fit-content;
+  padding: 10px;
+  cursor: pointer;
+}
+nav:hover {
+  color: black;
+}
+
+@media screen and (max-width: 940px) {
+  .name {
+    font-size: 0.75rem;
+  }
+  .elements {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .photo{
+    float:none;
+    display:block;
+  }
+  .info {
+    float:none;
+    display: block;
+  }
+}
